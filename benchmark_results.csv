@@ -1,0 +1,7 @@
+Dataset,Slaves,Execution Time (s),CPU Time (s),Memory Usage (MB-seconds),CPU Usage (vcore-seconds),CPU (%),Total Memory Used (MB)
+reddit_50k,2,141,0m6.902,331330,217,76.9504,2349.86
+reddit_100k,2,328,0m7.910,331330,217,33.0793,1010.15
+reddit_50k,3,99,0m6.824,255604,165,55.5556,2581.86
+reddit_100k,3,64,0m5.915,255604,165,85.9375,3993.81
+reddit_50k,5,117,0m6.553,296722,196,33.5043,2536.09
+reddit_100k,5,149,0m7.028,296722,196,26.3087,1991.42
