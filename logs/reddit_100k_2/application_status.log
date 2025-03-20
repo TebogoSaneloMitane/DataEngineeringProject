@@ -1,0 +1,24 @@
+Application Report : 
+	Application-Id : application_1742505661148_0001
+	Application-Name : streamjob4849619113143617641.jar
+	Application-Type : MAPREDUCE
+	User : ubuntu
+	Queue : default
+	Application Priority : 0
+	Start-Time : 1742505802441
+	Finish-Time : 1742505881357
+	Progress : 100%
+	State : FINISHED
+	Final-State : SUCCEEDED
+	Tracking-URL : http://master:19888/jobhistory/job/job_1742505661148_0001
+	RPC Port : 37741
+	AM Host : master
+	Aggregate Resource Allocation : 255604 MB-seconds, 165 vcore-seconds
+	Aggregate Resource Preempted : 0 MB-seconds, 0 vcore-seconds
+	Log Aggregation Status : DISABLED
+	Diagnostics : 
+	Unmanaged Application : false
+	Application Node Label Expression : <Not set>
+	AM container Node Label Expression : <DEFAULT_PARTITION>
+	TimeoutType : LIFETIME	ExpiryTime : UNLIMITED	RemainingTime : -1seconds
+

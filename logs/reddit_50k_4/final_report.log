@@ -1,0 +1,120 @@
+===== EXECUTION TIME =====
+2025-03-20 21:43:37,914 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.
+packageJobJar: [mapper.py, reducer.py, /tmp/hadoop-unjar1427777995060584963/] [] /tmp/streamjob8081206453196337141.jar tmpDir=null
+2025-03-20 21:43:41,756 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master/192.168.2.200:8032
+2025-03-20 21:43:42,443 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master/192.168.2.200:8032
+2025-03-20 21:43:43,446 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/ubuntu/.staging/job_1742506890473_0001
+2025-03-20 21:43:49,454 INFO mapred.FileInputFormat: Total input files to process : 1
+2025-03-20 21:43:49,537 INFO net.NetworkTopology: Adding a new node: /default-rack/192.168.2.200:9866
+2025-03-20 21:43:52,908 INFO mapreduce.JobSubmitter: number of splits:2
+2025-03-20 21:44:01,158 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1742506890473_0001
+2025-03-20 21:44:01,160 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2025-03-20 21:44:01,892 INFO conf.Configuration: resource-types.xml not found
+2025-03-20 21:44:01,894 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2025-03-20 21:44:02,645 INFO impl.YarnClientImpl: Submitted application application_1742506890473_0001
+2025-03-20 21:44:02,764 INFO mapreduce.Job: The url to track the job: http://master:8088/proxy/application_1742506890473_0001/
+2025-03-20 21:44:02,778 INFO mapreduce.Job: Running job: job_1742506890473_0001
+2025-03-20 21:44:10,987 INFO mapreduce.Job: Job job_1742506890473_0001 running in uber mode : false
+2025-03-20 21:44:10,988 INFO mapreduce.Job:  map 0% reduce 0%
+2025-03-20 21:44:57,011 INFO mapreduce.Job:  map 100% reduce 0%
+2025-03-20 21:45:11,158 INFO mapreduce.Job:  map 100% reduce 100%
+2025-03-20 21:45:28,336 INFO mapreduce.Job: Job job_1742506890473_0001 completed successfully
+2025-03-20 21:45:30,561 INFO mapreduce.Job: Counters: 54
+	File System Counters
+		FILE: Number of bytes read=30013
+		FILE: Number of bytes written=899464
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=197220147
+		HDFS: Number of bytes written=117
+		HDFS: Number of read operations=11
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=2
+		Launched reduce tasks=1
+		Data-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=82509
+		Total time spent by all reduces in occupied slots (ms)=11061
+		Total time spent by all map tasks (ms)=82509
+		Total time spent by all reduce tasks (ms)=11061
+		Total vcore-milliseconds taken by all map tasks=82509
+		Total vcore-milliseconds taken by all reduce tasks=11061
+		Total megabyte-milliseconds taken by all map tasks=84489216
+		Total megabyte-milliseconds taken by all reduce tasks=11326464
+	Map-Reduce Framework
+		Map input records=50000
+		Map output records=1481
+		Map output bytes=27045
+		Map output materialized bytes=30019
+		Input split bytes=174
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=10
+		Reduce shuffle bytes=30019
+		Reduce input records=1481
+		Reduce output records=10
+		Spilled Records=2962
+		Shuffled Maps =2
+		Failed Shuffles=0
+		Merged Map outputs=2
+		GC time elapsed (ms)=500
+		CPU time spent (ms)=4020
+		Physical memory (bytes) snapshot=562315264
+		Virtual memory (bytes) snapshot=7490228224
+		Total committed heap usage (bytes)=307437568
+		Peak Map Physical memory (bytes)=222281728
+		Peak Map Virtual memory (bytes)=2494771200
+		Peak Reduce Physical memory (bytes)=119808000
+		Peak Reduce Virtual memory (bytes)=2500874240
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=197219973
+	File Output Format Counters 
+		Bytes Written=117
+2025-03-20 21:45:30,563 INFO streaming.StreamJob: Output directory: /output_5slaves
+
+real	1m56.428s
+user	0m6.553s
+sys	0m0.591s
+===== YARN APPLICATION STATS =====
+Application Report : 
+	Application-Id : application_1742506890473_0001
+	Application-Name : streamjob8081206453196337141.jar
+	Application-Type : MAPREDUCE
+	User : ubuntu
+	Queue : default
+	Application Priority : 0
+	Start-Time : 1742507042240
+	Finish-Time : 1742507126777
+	Progress : 100%
+	State : FINISHED
+	Final-State : SUCCEEDED
+	Tracking-URL : http://slave1:19888/jobhistory/job/job_1742506890473_0001
+	RPC Port : 37537
+	AM Host : slave1
+	Aggregate Resource Allocation : 296722 MB-seconds, 196 vcore-seconds
+	Aggregate Resource Preempted : 0 MB-seconds, 0 vcore-seconds
+	Log Aggregation Status : DISABLED
+	Diagnostics : 
+	Unmanaged Application : false
+	Application Node Label Expression : <Not set>
+	AM container Node Label Expression : <DEFAULT_PARTITION>
+	TimeoutType : LIFETIME	ExpiryTime : UNLIMITED	RemainingTime : -1seconds
+
+===== JOB LOGS (CPU/MEMORY) =====
+===== NODE CPU & MEMORY USAGE =====
+===== NODE CPU & MEMORY USAGE =====
+Stats for slave4:34215:
+Stats for master:46653:
+Stats for slave2:40197:
+Stats for slave1:45263:
+Stats for slave3:36297:
